@@ -1,6 +1,14 @@
-# Ignore large CSV files
-*.csv
+# Ignore large CSV file
+BasicCompanyDataAsOneFile-2025-10-01.csv
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+```
+
+Replace the content with this:
+```
 # Python
 __pycache__/
 *.py[cod]
@@ -32,3 +40,7 @@ ENV/
 .vscode/
 *.swp
 *.swo
+
+# OS files
+.DS_Store
+Thumbs.db
